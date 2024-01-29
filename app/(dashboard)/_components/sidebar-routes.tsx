@@ -1,18 +1,18 @@
 "use client";
 
-import { BarChart, Compass, Layout, List } from "lucide-react";
+import { Layers3,  LineChart,  ScanSearch, Scroll } from "lucide-react";
 import { usePathname } from "next/navigation";
 
 import { SidebarItem } from "./sidebar-items";
 
 const guestRoutes = [
   {
-    icon: Layout,
+    icon: Layers3,
     label: "Dashboard",
     href: "/",
   },
   {
-    icon: Compass,
+    icon: ScanSearch,
     label: "Browse",
     href: "/search",
   },
@@ -20,12 +20,12 @@ const guestRoutes = [
 
 const teacherRoutes = [
   {
-    icon: List,
+    icon: Scroll,
     label: "Courses",
     href: "/teacher/courses",
   },
   {
-    icon: BarChart,
+    icon: LineChart,
     label: "Analytics",
     href: "/teacher/analytics",
   },
