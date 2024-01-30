@@ -6,7 +6,7 @@ export default function Home() {
     <div>
       <UserButton 
         afterSignOutUrl="/">
-          
+          r
         </UserButton>
     </div>
   )
