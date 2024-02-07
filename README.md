@@ -67,7 +67,12 @@ NEXT_PUBLIC_TEACHER_ID=
     
     ```
     
-2. **Include all the necessary details in the .env file.**
+2. **Install the dependencies**
+   ```bash
+      npm i
+   ```
+   
+3. **Include all the necessary details in the .env file.**
     
     - Fill in the provided template with the required credentials.
     
