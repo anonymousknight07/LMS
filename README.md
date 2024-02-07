@@ -61,7 +61,7 @@ NEXT_PUBLIC_TEACHER_ID=
 1. **Clone the repository to your local machine.**
 
     ```bash
-    git clone https://github.com/your-username/learning-management-system.git
+    git clone https://github.com/your-username/LMS.git
     
     ```
     
